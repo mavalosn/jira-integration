@@ -3,3 +3,10 @@ on:
   issues:
     types:
       - opened
+jobs:
+  job1:
+    runs-on: latest
+    steps:
+    - name: Print Page
+      run: |
+        echo "Hello word!!!"
